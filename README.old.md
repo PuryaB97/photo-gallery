@@ -1,2 +1,0 @@
-"# photo-gallery" 
-"# photo-gallery" 
