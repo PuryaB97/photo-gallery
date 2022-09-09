@@ -19,7 +19,10 @@ const UploadFrom = () => {
   };
   return (
     <form>
-      <input type="file" onClick={changeHandler} />
+      <label>
+        <input type="file" onClick={changeHandler} />
+        <span>+</span>
+      </label>
       <div className="outout">
         {error && <div className="error">{error}</div>}
         {file && <div>{file.name}</div>}
